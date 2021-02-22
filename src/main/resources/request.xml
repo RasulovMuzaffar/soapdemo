@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://test.com/my-soap-test">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getCurrentDateRequest>
+            <us:format>dd.MM.yyyy</us:format>
+        </us:getCurrentDateRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
